@@ -13,52 +13,41 @@ class super_404 {
 
 	// Define keywords you want reserved for specific redirects or methods here
 	var $aliases = array(
-		
+
 		// Reserved keywords redirect to URL.
-		'basecamp' 	=>	'http://account.basecamphq.com',
-		'git' 		=>	'https://github.com/account',
-		'mail'		=>	'http://mail.google.com/a/domain.com',
-		'docs'		=>	'http://docs.google.com/a/domain.com',
-		'calendar'	=>	'http://calendar.google.com/a/domain.com',
-		
+		'bc'		=>	'http://brainstormmedia.basecamphq.com',
+		'basecamp' 	=>	'http://brainstormmedia.basecamphq.com',
+		'git' 		=>	'http://bsm.slsapp.com/login?goto=',
+		'mail'		=>	'http://mail.google.com/a/pdclark.com',
+		'docs'		=>	'http://docs.google.com/a/pdclark.com',
+		'calendar'	=>	'http://calendar.google.com/a/pdclark.com',
+
 		// Reserved keywords run method
 		'files'		=>	'search_dropbox',
 		'file'		=>	'search_dropbox',
 		'f'			=>	'search_dropbox',
-		
+
 	);
-	
+
 	// Directories on this web server to search for file matches
 	var $local_directories = array(
 		'/sites',
 		// '/files',
 	);
-	
+
 	// Dropbox accounts and directories on them to search for file matches
 	var $dropbox_accounts = array(
 		array(
-			'username'         => 'example@site.com', // E-mail address you log into dropbox.com with
-			'password'         => '', // Password you log into dropbox.com with
-			'consumer_key'     => '', // Developer key. See https://www.dropbox.com/developers/quickstart
-			'consumer_secret'  => '', // Developer key. See https://www.dropbox.com/developers/quickstart
+			'username'         => 'dropbox@pdclark.com', // E-mail address
+			'password'         => '6KJ869338YT',
+			'consumer_key'     => '8yj1j4kr5k6yo9v', // Developer key. See https://www.dropbox.com/developers/quickstart
+			'consumer_secret'  => 'c5jwknvkqrnwr04', // Developer key. See https://www.dropbox.com/developers/quickstart
 			'directories'      => array(
-				'/Non-Public/Folder',
+				'/BSM/Public',
 				'/Public',
 			),
 		),
 		// Duplicate array to search additional accounts
-		/*
-		array(
-			'username'         => 'example@site.com', // E-mail address you log into dropbox.com with
-			'password'         => '', // Password you log into dropbox.com with
-			'consumer_key'     => '', // Developer key. See https://www.dropbox.com/developers/quickstart
-			'consumer_secret'  => '', // Developer key. See https://www.dropbox.com/developers/quickstart
-			'directories'      => array(
-				'/Non-Public/Folder',
-				'/Public',
-			),
-		),
-		*/
 	);
 	
 	function not_found(){
