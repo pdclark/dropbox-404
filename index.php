@@ -1,6 +1,6 @@
 <?php
 
-$super_404 = new super_404();
+$dropbox_404 = new dropbox_404();
 
 /**
  * 404 Error Document 
@@ -9,7 +9,7 @@ $super_404 = new super_404();
  *
  * @author pdclark <pdclark.com>
  **/
-class super_404 {
+class dropbox_404 {
 
 	// Define keywords you want reserved for specific redirects or methods here
 	var $aliases = array(
@@ -26,7 +26,7 @@ class super_404 {
 		'files'		=>	'search_dropbox',
 		'file'		=>	'search_dropbox',
 		'f'			=>	'search_dropbox',
-
+		
 	);
 
 	// Directories on this web server to search for file matches
@@ -44,10 +44,20 @@ class super_404 {
 			'consumer_secret'  => 'c5jwknvkqrnwr04', // Developer key. See https://www.dropbox.com/developers/quickstart
 			'directories'      => array(
 				'/BSM/Public',
+			),
+		),
+		/*
+		array(
+			'username'         => 'example@site.com', // E-mail address you log into dropbox.com with
+			'password'         => '', // Password you log into dropbox.com with
+			'consumer_key'     => '', // Developer key. See https://www.dropbox.com/developers/quickstart
+			'consumer_secret'  => '', // Developer key. See https://www.dropbox.com/developers/quickstart
+			'directories'      => array(
+				'/Non-Public/Folder',
 				'/Public',
 			),
 		),
-		// Duplicate array to search additional accounts
+		*/
 	);
 	
 	function not_found(){

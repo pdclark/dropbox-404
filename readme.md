@@ -1,11 +1,11 @@
-# Super 404 #
+# Dropbox 404 #
 
-Searches defined aliases, local directories, and Dropbox accounts.
+Searches Dropbox accounts, local directories, defined aliases for a match to the requested file.
 Redirects or sends the file if found, displays 404 if not.
 
-Use by putting the super_404 directory in your site's root directory and this line in *.htaccess* in your root directory:
+Use by putting the dropbox-404 directory in your site's root directory and this line in *.htaccess* in your root directory:
 
-    ErrorDocument 404 /super-404/index.php
+    ErrorDocument 404 /dropbox-404/index.php
 
 # Example Settings #
 
