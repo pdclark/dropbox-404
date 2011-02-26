@@ -18,9 +18,9 @@ class dropbox_404 {
 		'bc'		=>	'http://brainstormmedia.basecamphq.com',
 		'basecamp' 	=>	'http://brainstormmedia.basecamphq.com',
 		'git' 		=>	'http://bsm.slsapp.com/login?goto=',
-		'mail'		=>	'http://mail.google.com/a/pdclark.com',
-		'docs'		=>	'http://docs.google.com/a/pdclark.com',
-		'calendar'	=>	'http://calendar.google.com/a/pdclark.com',
+		'mail'		=>	'http://mail.google.com/a/brainstormmedia.com',
+		'docs'		=>	'http://docs.google.com/a/brainstormmedia.com',
+		'calendar'	=>	'http://calendar.google.com/a/brainstormmedia.com',
 
 		// Reserved keywords run method
 		'files'		=>	'search_dropbox',
@@ -63,22 +63,7 @@ class dropbox_404 {
 	function not_found(){
 		header( $_SERVER["SERVER_PROTOCOL"].' 404 Not Found');
 		
-		// Origiginal: http://lumino.us/404
-		?>
-		
-		<h2>File Not Found</h2>
-
-		<p>What has happened here?<br>
-		Either we moved that webpage<br>
-		Or someone mistyped</p>
-
-		<p>Oh well, please try search<br>
-		Or retyping, or something<br>
-		Stronger&hellip; like bourbon</p>
-
-		<a href="http://<?php echo $_SERVER['SERVER_NAME'] ?>/">Go Home</a>
-		
-		<?php
+		include '404.php';
 		
 		exit;
 	}
