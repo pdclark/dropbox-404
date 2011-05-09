@@ -17,7 +17,7 @@ class dropbox_404 {
 		// Reserved keywords redirect to URL.
 		'bc'		=>	'http://brainstormmedia.basecamphq.com',
 		'basecamp' 	=>	'http://brainstormmedia.basecamphq.com',
-		'git' 		=>	'http://bsm.slsapp.com/login?goto=',
+		'git' 		=>	'http://git.brainstormmedia.com',
 		'mail'		=>	'http://mail.google.com/a/brainstormmedia.com',
 		'docs'		=>	'http://docs.google.com/a/brainstormmedia.com',
 		'calendar'	=>	'http://calendar.google.com/a/brainstormmedia.com',
