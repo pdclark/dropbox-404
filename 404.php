@@ -11,9 +11,9 @@
 </head>	
     
 <body class="e404">
-	<h1 id="logo"><a href="http://brainstormmedia.basecamphq.com/" title="Client Login">Brainstorm Media</a></h1>
+	<h1 id="logo"><a href="http://brainstormmedia.com/">Brainstorm Media</a></h1>
 
-	<div id="about">
+	<div id="content_wrap">
 		<h2>File Not Found</h2>
 
 		<p>What has happened here?<br/>
@@ -31,7 +31,8 @@
 		<div class="clear"></div>
 	</div>
 
-	<script type="text/javascript" src="http://cdn2.brainstormmedia.com/js/all.min.js"></script>
+	<script type="text/javascript" src="http://brainstormmedia.com/js/all.min.js.php"></script>
+	
 </body>	
 </html>
 
