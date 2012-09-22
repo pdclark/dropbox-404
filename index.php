@@ -21,6 +21,10 @@ class dropbox_404 {
 		'mail'		=>	'http://mail.google.com/a/brainstormmedia.com',
 		'docs'		=>	'http://docs.google.com/a/brainstormmedia.com',
 		'calendar'	=>	'http://calendar.google.com/a/brainstormmedia.com',
+		'hireme'	=>	'https://docs.google.com/spreadsheet/viewform?formkey=dExGd3gwb3BDZkNHMkpRZUwtNUF2NWc6MA',
+
+		// Other
+		'graham'	=>	'http://dl.brain.st/u/20624698/graham/index.html',
 
 		// Reserved keywords run method
 		'files'		=>	'search_dropbox',
@@ -43,6 +47,7 @@ class dropbox_404 {
 			'consumer_key'     => '8yj1j4kr5k6yo9v', // Developer key. See https://www.dropbox.com/developers/quickstart
 			'consumer_secret'  => 'c5jwknvkqrnwr04', // Developer key. See https://www.dropbox.com/developers/quickstart
 			'directories'      => array(
+				'/Public',
 				'/BSM/Public',
 			),
 		),
