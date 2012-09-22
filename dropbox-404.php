@@ -62,9 +62,8 @@ class Storm_Dropbox_404 {
 	var $dropbox_account;
 	
 	function __construct() {
-		
 		$path = parse_url( $_SERVER['REQUEST_URI'], PHP_URL_PATH );
-		if ( empty( $path )) { return; }
+		if ( !is_404() || empty( $path )) { return; }
 
 		// Load configuration file
 		$config_path = apply_filters('dropbox_404_config_path', WP_CONTENT_DIR.'/dropbox-404.ini.php' );
