@@ -4,7 +4,7 @@ Plugin Name: Dropbox 404
 Plugin URI: http://github.com/10up/dropbox-404
 Description: Search Dropbox Public folder and various redirects for filenames before returning 404.
 Version: 1.0
-Author: Paul Clark
+Author: Paul Clark, 10up
 Author URI: http://pdclark.com
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
