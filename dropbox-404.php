@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Dropbox 404
-Plugin URI: http://github.com/10up/dropbox-404
+Plugin URI: https://github.com/brainstormmedia/dropbox-404
 Description: Search Dropbox Public folder and various redirects for filenames before returning 404.
 Version: 1.0
 Author: Paul Clark, 10up
